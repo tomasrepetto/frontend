@@ -1,0 +1,51 @@
+header{
+    background: url('https://i.ytimg.com/vi/NrNIwogaNus/maxresdefault.jpg');
+
+}
+
+header img{
+    display:block;
+    width: 5%;
+    height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1{
+    background-color: #c4c4c47c;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-family: 'Tourney', cursive;
+}
+
+header nav{
+    text-align: center;
+}
+
+header nav a{
+    color: white;
+    background-color: #c4c4c47c;
+}
+
+section h2{
+    background-color: #c4c4c4;
+    color: #005677;
+    text-transform: uppercase;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+}
+
+span{
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer{
+    background-color: #c4c4c4;
+}
+footer div{
+    text-align: center;
+    color:#005677;
+}

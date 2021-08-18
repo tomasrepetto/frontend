@@ -1,0 +1,607 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .boxunoheader {
+    display: none;
+  }
+  .boxdosheader {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+  }
+  .boxdosheader ul{
+  display: none;
+  }
+  .boxdosheader img{
+    height: 20px;
+  }
+  
+  .imgfondo {
+    background-image: url('../img/Fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .txtuno {
+    background: #FFFFFF;
+  border-radius: 5px;
+    font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #3C2313;
+  width: 90%;
+  height: 12%;
+  text-align: center;
+  padding-top: 2%;
+  }
+  .txtdos {
+    font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: #3C2313;
+  }
+  .imgfondo button {
+    background: #F0A83E;
+    border-radius: 5px;
+    width: 35%;
+    height: 12%;
+    font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-right: 4%;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  main h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #3C2313;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 4%;
+  }
+  main p {
+    font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #666666;
+  word-spacing: 30px;
+  margin-bottom: 10%;
+  }
+  
+  .boxfotos {
+    display: flex;
+    flex-direction: column;  
+    padding-left: 20%;
+  }
+  .boxfotos img {
+    width: 80%;
+  }
+  .boxfotos p{
+    font-style: bold;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 15px;
+  color: #3C2313;
+  text-align: center;
+  word-spacing: 0px;
+  margin-bottom: 5%;
+  }
+  .boxfotos .precio {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 15px;
+    color: #F0A83E;
+    margin-bottom: 8%;  
+  }
+  .boxcontacto {
+  width: 100%;
+  height: 286px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  }
+  .boxcontacto h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+  }
+  .boxcontacto article {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    background: #3C2313;
+    border-radius: 15px;
+    color: #AB9C9C;
+    width: 80%;
+    height: 15%;
+    padding-top: 3%;
+    padding-left: 2%;
+  }
+  #boxconfirmacion {
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 2%;
+  padding-left: 0%;
+  }
+  
+  #boxconfirmacion button {
+    background: #8A8787;
+    border-radius: 25px;
+    font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  width: 49%;
+  height: 45px;
+  }
+  #boxconfirmacion .fondoamarillo {
+    background: #f0a83e;
+  }
+  .boxsuscripcionuno {
+    background-color:#f0a83e;
+    height: 100px;
+    margin-top: 10%;
+  }
+  .boxsuscripcionuno article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+  }
+  .boxsuscripcionuno img {
+  margin-left: 2%;
+  margin-top: 4%;
+  }
+  .boxsuscripcionuno h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 4%;
+    margin-right: 20%;
+  }
+  .boxsuscripcionuno p {
+    background: #FFFFFF;
+    border-radius: 15px;
+    height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #A0A0A0;
+    width: 60%;
+    margin-left: 5%;
+    padding: 3%;
+  }
+  .boxsuscripcionuno button {
+    font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #3C2313;
+  border-radius: 15px;
+  width: 25%;
+  margin-right: 5%;
+  }
+  .boxsuscripciondos {
+    background: #3C2313;
+    height: 326px;
+  }
+  
+  .datos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 20%;
+    height: 90%;
+  }
+  h3{
+    font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  }
+  .datos p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #8A8787;
+  }
+  .localidad{
+  display:flex;
+  }
+  .telefono {
+    display:flex;
+  }
+  .correo {
+    display:flex;
+  }
+  .logoabajo{
+    display: none;
+  }
+  .menuham{
+    display: none;
+  }
+  .boxsuscripciontres {
+    background: #222222;
+    font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  }
+
+  @media(min-width: 469px){
+    * {
+      font-family: "Roboto", sans-serif;
+      box-sizing: border-box;
+      padding: 0px;
+      margin: 0px;
+    }
+    body {
+      width: 1024px;
+    }
+    
+    .boxunoheader {
+      background-color: #222222;
+      width: 1024px;
+      height: 20px;
+      display: flex;
+      justify-content: space-between;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 12px;
+      color: #f3f3f3;
+      font-weight: 400;
+    }
+    .boxunoheader p {
+      margin: 4px 0px 4px 90px;
+    }
+    .boxunoheader ul {
+      display: flex;
+      margin: 4px 60px 4px 654px;
+    }
+    
+    .espaciolista {
+      padding-right: 20px;
+    }
+    .boxdosheader {
+      display: flex;
+      align-content: space-between;
+      width: 1024px;
+      height: 62px;
+      background-color: #f0a83e;
+    }
+    .boxdosheader img {
+      width: 174.38px;
+      height: 23px;
+      margin: 19px 434.62px 20px 40px;
+    }
+    .boxdosheader ul {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 15px;
+      color: #ffffff;
+    }
+    .boxdosheader ul li {
+      padding-right: 20px;
+    }
+    .boxdosheader ul li i{
+      margin-right: 1px;
+    }
+    .imgfondo {
+      background-image: url("../img/Fondo.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 1024px;
+      height: 409px;
+      position: relative;
+    }
+    .boxconimg {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-end;
+      margin: 156px 12px 107px 648px;
+    }
+    .boxconimg section {
+      width: 365px;
+      height: 85px;
+      margin-right: 12px;
+    }
+    .txtuno {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 35px;
+      text-align: center;
+      color: #3c2313;
+      width: 365px;
+      height: 54px;
+      background: #ffffff;
+      border-radius: 5px;
+      padding: 9px 10px;
+    }
+    .txtdos {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #3c2313;
+      padding: 12px;
+    }
+    .boxconimg button {
+      width: 141px;
+      height: 49px;
+      background: #f0a83e;
+      border-radius: 5px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #ffffff;
+      margin: 12px 117px 107px;
+    }
+    .patita {
+      width: 67px;
+      height: 71px;
+      margin: 20px 478px 5px 479px;
+    }
+    main h3 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 47px;
+      color: #3c2313;
+      text-align: center;
+    }
+    main p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 18px;
+      color: #666666;
+      margin: 20px;
+      margin-bottom: 49px;
+      text-align: center;
+    }
+    img {
+      width: 265px;
+      height: 268.86px;
+    }
+    .boxfotos {
+      display: flex;
+      margin: 0px 95px 78px 95px;
+    }
+    .espacio {
+      margin-right: 21.97px;
+    }
+    .espacio p {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 18px;
+      color: #3c2313;
+    }
+    #precio {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      color: #f0a83e;
+    }
+    .boxcontacto {
+      margin: 0px 341px 75px 343px;
+      display: flex;
+      flex-direction: column;
+    }
+    .boxcontacto h2 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 29px;
+      color: #3c2313;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .boxcontacto article {
+      background: #3c2313;
+      border-radius: 15px;
+      width: 340px;
+      height: 40px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 9px;
+      line-height: 11px;
+      color: #ffffff;
+      padding: 15px 0px 14px 14.11px;
+      margin-bottom: 10px;
+    }
+    #boxconfirmacion {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: none;
+      padding: 0px;
+      margin-top: 41px;
+    }
+    #boxconfirmacion button {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #ffffff;
+      width: 110px;
+      height: 34px;
+      background: #8a8787;
+      border-radius: 15px;
+      text-align: center;
+      padding: 8px 25px 7px 22px;
+      margin-right: 6px;
+    }
+    #boxconfirmacion .fondoamarillo {
+      background: #f0a83e;
+    }
+    .boxsuscripcionuno {
+      display: flex;
+      justify-content: space-between;
+      background: #f0a83e;
+      height: 60px;
+      align-items: center;
+    }
+    .boxsuscripcionuno article {
+      display: flex;
+      align-content: space-between;
+      margin-left: 23px;
+    }
+    .boxsuscripcionuno img {
+      height: 20.28px;
+      width: 40px;
+      margin-right: 10px;
+    }
+    .boxsuscripcionuno h2 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 23px;
+      color: #ffffff;
+    }
+    .boxsuscripcionuno p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 9px;
+      line-height: 11px;
+      color: #a0a0a0;
+      width: 271px;
+      height: 40px;
+      background: #ffffff;
+      border-radius: 15px;
+      padding: 14px 148px 15px 8px;
+      margin-right: 5px;
+    }
+    .boxsuscripcionuno button {
+      width: 70px;
+      height: 34px;
+      background: #3c2313;
+      border-radius: 15px;
+      margin: 0px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 9px;
+      line-height: 11px;
+      color: #ffffff;
+      margin-right: 47px;
+    }
+    .boxsuscripciondos {
+      background: #3c2313;
+      height: 284px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .datos {
+      display: flex;
+      flex-direction: column;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 23px;
+      color: #ffffff;
+      margin: 20px 0px 20px 70px;
+    }
+    .boxsuscripciondos img {
+      width: 166px;
+      height: 23px;
+      margin-right: 70px;
+    }
+    .datos img {
+      width: 66px;
+      height: 66px;
+      margin-bottom: 20px;
+      margin-right: 25px;
+    }
+    .correo img {
+      margin-bottom: 0px;
+    }
+    
+    .datos p {
+      margin-bottom: 20px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 12px;
+      color: #8a8787;
+      margin-top: 2px;
+    }
+    .localidad {
+      display: flex;
+    }
+    .telefono {
+      display: flex;
+    }
+    .correo {
+      display: flex;
+    }
+    .boxsuscripciontres {
+      height: 20px;
+      background: #222222;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 12px;
+      color: #ffffff;
+      text-align: center;
+      padding: 4px 0px 4px 0px;
+    }
+  }
